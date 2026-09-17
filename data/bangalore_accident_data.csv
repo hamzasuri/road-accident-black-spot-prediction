@@ -1,0 +1,41 @@
+location,latitude,longitude,severity,incidents,description,accident_type,peak_hours,road_condition,weather_factor
+Silk Board Junction,12.9177,77.6233,high,42,Heavy traffic congestion with poor lane discipline,Vehicle Collision,Morning/Evening,Good,No
+KR Puram Bridge,13.0054,77.6714,high,38,Narrow bridge with heavy vehicle movement,Vehicle Collision,Evening,Fair,No
+Hebbal Flyover,13.0358,77.5946,high,35,Complex junction with multiple entry/exit points,Vehicle Collision,Morning,Good,No
+Marathahalli Bridge,12.9591,77.6974,medium,25,Poor road conditions and inadequate lighting,Vehicle Collision,Evening,Poor,Yes
+Bannerghatta Road,12.8933,77.5970,medium,28,Narrow roads with heavy traffic,Vehicle Collision,Evening,Fair,No
+Tin Factory,12.9984,77.6610,high,32,Chaotic traffic with poor signal management,Vehicle Collision,Morning/Evening,Fair,No
+Mekhri Circle,13.0152,77.5843,medium,22,Roundabout with poor lane markings,Vehicle Collision,Evening,Good,No
+Yeshwanthpur Junction,13.0204,77.5563,medium,24,Railway crossing nearby with heavy commercial vehicles,Vehicle Collision,Afternoon,Good,No
+Jayadeva Flyover,12.9227,77.6127,high,30,Construction work causing diversions,Vehicle Collision,Morning,Fair,No
+Electronic City Flyover,12.8440,77.6608,medium,26,High-speed corridor with inadequate safety barriers,Vehicle Collision,Morning,Good,No
+Whitefield Main Road,12.9698,77.7499,medium,23,IT corridor with high traffic during peak hours,Vehicle Collision,Morning/Evening,Good,No
+Mysore Road,12.9456,77.5336,high,33,Highway entry point with poor traffic management,Vehicle Collision,Evening,Fair,No
+Old Madras Road,13.0098,77.6406,medium,27,Narrow sections with heavy vehicle movement,Vehicle Collision,Afternoon,Fair,No
+Tumkur Road,13.0158,77.5362,high,31,Highway with inadequate pedestrian crossings,Pedestrian Accident,Evening,Good,No
+Hosur Road,12.8489,77.6270,high,36,Industrial area with heavy truck movement,Vehicle Collision,Morning,Fair,No
+Outer Ring Road (Bellandur),12.9254,77.6770,high,34,IT corridor with multiple junctions,Vehicle Collision,Morning/Evening,Good,No
+Old Airport Road,12.9609,77.6487,medium,29,Poor road maintenance and potholes,Two-wheeler Accident,Evening,Poor,Yes
+Kanakapura Road,12.8981,77.5673,medium,24,Narrow road with increasing traffic volume,Vehicle Collision,Evening,Fair,No
+Bellary Road,13.0622,77.5963,high,37,Airport route with high-speed traffic,Vehicle Collision,Morning/Night,Good,No
+Richmond Road,12.9667,77.6099,medium,21,Narrow road with poor visibility at night,Vehicle Collision,Night,Fair,No
+MG Road,12.9758,77.6096,medium,19,High pedestrian movement with busy traffic,Pedestrian Accident,Evening,Good,No
+Indiranagar 100ft Road,12.9784,77.6408,medium,22,Commercial area with high vehicle density,Two-wheeler Accident,Evening,Good,No
+Koramangala Inner Ring Road,12.9316,77.6246,high,31,Multiple intersections with poor signal timing,Vehicle Collision,Evening,Good,No
+Sarjapur Road,12.9102,77.6870,high,33,Narrow road with heavy construction activity,Vehicle Collision,Morning/Evening,Poor,Yes
+Cunningham Road,12.9884,77.5932,medium,18,Busy commercial area with inadequate parking,Vehicle Collision,Afternoon,Good,No
+Airport Road Toll,13.0701,77.6196,high,29,High-speed zone with merging traffic,Vehicle Collision,Morning/Night,Good,No
+Domlur Flyover,12.9614,77.6368,medium,24,Sharp curves with inadequate warning signs,Two-wheeler Accident,Evening,Good,No
+Basavanagudi,12.9422,77.5738,medium,20,Residential area with narrow lanes,Two-wheeler Accident,Morning,Fair,No
+Majestic Area,12.9766,77.5713,high,35,High pedestrian and vehicle movement,Pedestrian Accident,All Day,Fair,No
+Ulsoor Lake Road,12.9825,77.6258,medium,23,Recreational area with weekend congestion,Vehicle Collision,Weekend,Good,No
+Malleshwaram 18th Cross,13.0064,77.5643,medium,21,Market area with mixed traffic,Two-wheeler Accident,Morning,Fair,No
+Vijayanagar Main Road,12.9647,77.5328,medium,25,Residential area with school zones,Vehicle Collision,Morning,Good,No
+JP Nagar Ring Road Junction,12.9073,77.5831,high,32,Complex junction with multiple signals,Vehicle Collision,Evening,Good,No
+Peenya Industrial Area,13.0279,77.5362,high,34,Industrial zone with heavy vehicles,Vehicle Collision,Morning,Fair,No
+Jalahalli Cross,13.0507,77.5492,medium,26,Residential area with poor road conditions,Two-wheeler Accident,Evening,Poor,Yes
+Hennur Main Road,13.0307,77.6376,high,30,Narrow road with heavy traffic,Vehicle Collision,Evening,Fair,No
+Nagawara Junction,13.0407,77.6210,high,31,Complex intersection with poor visibility,Vehicle Collision,Evening,Fair,No
+Banaswadi Main Road,13.0118,77.6462,medium,24,Residential area with inadequate signals,Vehicle Collision,Morning,Good,No
+Kalyan Nagar Ring Road,13.0279,77.6400,medium,27,Fast-moving traffic with residential exits,Vehicle Collision,Evening,Good,No
+BTM Layout,12.9166,77.6101,high,33,Densely populated with narrow roads,Two-wheeler Accident,Evening,Fair,No

@@ -1,0 +1,41 @@
+location,latitude,longitude,incidents,severity,accident_type,peak_hours,road_condition,weather_factor,road_length,road_highway,lanes,maxspeed,oneway,u,v,key
+Silk Board Junction,12.9177,77.6233,42,high,Vehicle Collision,Morning/Evening,Good,No,500.80837627337775,primary_link,2,40,True,5067333236,12822455068,0
+KR Puram Bridge,13.0054,77.6714,38,high,Vehicle Collision,Evening,Fair,No,42.20627418085141,residential,unknown,unknown,False,10081327955,1438379141,0
+Hebbal Flyover,13.0358,77.5946,35,high,Vehicle Collision,Morning,Good,No,70.9944784963843,residential,unknown,unknown,False,9189026913,2460374974,0
+Marathahalli Bridge,12.9591,77.6974,25,medium,Vehicle Collision,Evening,Poor,Yes,178.2666110903706,residential,unknown,unknown,False,10089237210,10089237212,0
+Bannerghatta Road,12.8933,77.597,28,medium,Vehicle Collision,Evening,Fair,No,302.3503740681955,residential,unknown,unknown,False,1344698606,1344698544,1
+Tin Factory,12.9984,77.661,32,high,Vehicle Collision,Morning/Evening,Fair,No,34.504537600576064,residential,unknown,unknown,False,9189144956,1837722585,0
+Mekhri Circle,13.0152,77.5843,22,medium,Vehicle Collision,Evening,Good,No,193.70629111355336,trunk_link,2,60,True,343338941,850854718,0
+Yeshwanthpur Junction,13.0204,77.5563,24,medium,Vehicle Collision,Afternoon,Good,No,77.08238495143203,tertiary,unknown,unknown,True,463680908,11843465423,0
+Jayadeva Flyover,12.9227,77.6127,30,high,Vehicle Collision,Morning,Fair,No,217.5968577378566,residential,unknown,unknown,False,3145224313,6455785761,0
+Electronic City Flyover,12.844,77.6608,26,medium,Vehicle Collision,Morning,Good,No,44.68975613699969,residential,unknown,unknown,False,7484941125,7484941124,0
+Whitefield Main Road,12.9698,77.7499,23,medium,Vehicle Collision,Morning/Evening,Good,No,150.66478195158624,primary,2,unknown,True,10056189410,331147702,0
+Mysore Road,12.9456,77.5336,33,high,Vehicle Collision,Evening,Fair,No,33.2484916588283,residential,unknown,unknown,False,13266504810,2224183036,0
+Old Madras Road,13.0098,77.6406,27,medium,Vehicle Collision,Afternoon,Fair,No,55.954021680504255,residential,unknown,unknown,False,1799352641,1799352698,0
+Tumkur Road,13.0158,77.5362,31,high,Pedestrian Accident,Evening,Good,No,28.583595687348012,residential,unknown,unknown,False,10038593858,10038593872,0
+Hosur Road,12.8489,77.627,36,high,Vehicle Collision,Morning,Fair,No,258.54807517357466,tertiary,unknown,unknown,False,14172803269,7465950644,0
+Outer Ring Road (Bellandur),12.9254,77.677,34,high,Vehicle Collision,Morning/Evening,Good,No,43.61244871548632,residential,unknown,unknown,False,9788419608,13343872440,0
+Old Airport Road,12.9609,77.6487,29,medium,Two-wheeler Accident,Evening,Poor,Yes,44.69296267988405,tertiary,2,unknown,False,3780767744,3780767746,0
+Kanakapura Road,12.8981,77.5673,24,medium,Vehicle Collision,Evening,Fair,No,46.38871943717798,residential,unknown,unknown,False,3055533513,7291452507,0
+Bellary Road,13.0622,77.5963,37,high,Vehicle Collision,Morning/Night,Good,No,108.92476804777476,residential,unknown,unknown,False,4117460908,9184294171,0
+Richmond Road,12.9667,77.6099,21,medium,Vehicle Collision,Night,Fair,No,134.14164430630868,primary,3,30,True,442972802,263155261,0
+MG Road,12.9758,77.6096,19,medium,Pedestrian Accident,Evening,Good,No,338.0760408150344,secondary,3,30,True,7702031457,11854316019,0
+Indiranagar 100ft Road,12.9784,77.6408,22,medium,Two-wheeler Accident,Evening,Good,No,9.441941581519739,primary,2,unknown,True,11494414328,11187974841,0
+Koramangala Inner Ring Road,12.9316,77.6246,31,high,Vehicle Collision,Evening,Good,No,48.60392635368527,residential,unknown,unknown,False,309593965,6144129431,0
+Sarjapur Road,12.9102,77.687,33,high,Vehicle Collision,Morning/Evening,Poor,Yes,231.14019150019476,primary,3,50,True,3500405745,2099691661,0
+Cunningham Road,12.9884,77.5932,18,medium,Vehicle Collision,Afternoon,Good,No,215.31770710327407,residential,2,unknown,False,12148059333,11676514106,0
+Airport Road Toll,13.0701,77.6196,29,high,Vehicle Collision,Morning/Night,Good,No,149.52793029898803,residential,unknown,unknown,False,2194045016,4597636747,0
+Domlur Flyover,12.9614,77.6368,24,medium,Two-wheeler Accident,Evening,Good,No,62.21623753668247,primary,2,30,True,347261908,315601605,0
+Basavanagudi,12.9422,77.5738,20,medium,Two-wheeler Accident,Morning,Fair,No,439.9973867682537,primary,2,50,True,249782468,1837757332,0
+Majestic Area,12.9766,77.5713,35,high,Pedestrian Accident,All Day,Fair,No,514.1431808504012,primary,unknown,unknown,True,1636820441,12430010318,0
+Ulsoor Lake Road,12.9825,77.6258,23,medium,Vehicle Collision,Weekend,Good,No,503.8779480030023,secondary,2,unknown,True,6312182952,3304182912,0
+Malleshwaram 18th Cross,13.0064,77.5643,21,medium,Two-wheeler Accident,Morning,Fair,No,79.27058207345654,residential,unknown,unknown,False,427593400,12289606135,0
+Vijayanagar Main Road,12.9647,77.5328,25,medium,Vehicle Collision,Morning,Good,No,52.19626307141605,tertiary,1,unknown,False,1512686587,1512686466,0
+JP Nagar Ring Road Junction,12.9073,77.5831,32,high,Vehicle Collision,Evening,Good,No,35.204603764566244,residential,unknown,unknown,False,362424222,362419385,0
+Peenya Industrial Area,13.0279,77.5362,34,high,Vehicle Collision,Morning,Fair,No,97.56365064881474,living_street,unknown,unknown,False,463392815,463392814,0
+Jalahalli Cross,13.0507,77.5492,26,medium,Two-wheeler Accident,Evening,Poor,Yes,486.9441815360947,tertiary,unknown,unknown,True,308185159,308185349,0
+Hennur Main Road,13.0307,77.6376,30,high,Vehicle Collision,Evening,Fair,No,77.9862100460038,residential,unknown,unknown,False,6194541641,12797237160,0
+Nagawara Junction,13.0407,77.621,31,high,Vehicle Collision,Evening,Fair,No,141.3780858968152,residential,unknown,unknown,False,1789912222,1789912219,0
+Banaswadi Main Road,13.0118,77.6462,24,medium,Vehicle Collision,Morning,Good,No,225.85488609632176,tertiary,2,unknown,False,343308103,7211178766,0
+Kalyan Nagar Ring Road,13.0279,77.64,27,medium,Vehicle Collision,Evening,Good,No,17.38403164695361,tertiary,2,unknown,False,6583814656,7380160848,0
+BTM Layout,12.9166,77.6101,33,high,Two-wheeler Accident,Evening,Fair,No,3795.173977919972,primary,2,40,True,8239947030,12040966310,0

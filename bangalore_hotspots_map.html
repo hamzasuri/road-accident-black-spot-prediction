@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_11f261f1d6ae1de2c7fbc51535dbf58d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_11f261f1d6ae1de2c7fbc51535dbf58d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_11f261f1d6ae1de2c7fbc51535dbf58d = L.map(
+                "map_11f261f1d6ae1de2c7fbc51535dbf58d",
+                {
+                    center: [12.972927500000003, 77.61370749999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_caed17c91c1f042d27e7f9851c0a659d = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_caed17c91c1f042d27e7f9851c0a659d.addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+            var marker_16049478439f9d716f9af75d99090ce8 = L.marker(
+                [12.9177, 77.6233],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_fc23a2282c75e0f1c0cf418f335eee13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_515b735eeb80fbd1657f41984801b9c2 = $(`<div id="html_515b735eeb80fbd1657f41984801b9c2" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Silk Board Junction<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 42<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning/Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_fc23a2282c75e0f1c0cf418f335eee13.setContent(html_515b735eeb80fbd1657f41984801b9c2);
+            
+        
+
+        marker_16049478439f9d716f9af75d99090ce8.bindPopup(popup_fc23a2282c75e0f1c0cf418f335eee13)
+        ;
+
+        
+    
+    
+            marker_16049478439f9d716f9af75d99090ce8.bindTooltip(
+                `<div>
+                     Silk Board Junction
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3cec20afe1b54b1dfd96197d644e4141 = L.marker(
+                [13.0054, 77.6714],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_3325ef92f21da54aa0c8c2972850155a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19cdb421cd4c1c42baa58528c9db296b = $(`<div id="html_19cdb421cd4c1c42baa58528c9db296b" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> KR Puram Bridge<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 38<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_3325ef92f21da54aa0c8c2972850155a.setContent(html_19cdb421cd4c1c42baa58528c9db296b);
+            
+        
+
+        marker_3cec20afe1b54b1dfd96197d644e4141.bindPopup(popup_3325ef92f21da54aa0c8c2972850155a)
+        ;
+
+        
+    
+    
+            marker_3cec20afe1b54b1dfd96197d644e4141.bindTooltip(
+                `<div>
+                     KR Puram Bridge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7098b75e52d66c27ee53b148e9fb9ac6 = L.marker(
+                [13.0358, 77.5946],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_1c9585223a0d01297371ceafed7884f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ba245df9b7f26592cc949605023f188 = $(`<div id="html_4ba245df9b7f26592cc949605023f188" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Hebbal Flyover<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 35<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_1c9585223a0d01297371ceafed7884f5.setContent(html_4ba245df9b7f26592cc949605023f188);
+            
+        
+
+        marker_7098b75e52d66c27ee53b148e9fb9ac6.bindPopup(popup_1c9585223a0d01297371ceafed7884f5)
+        ;
+
+        
+    
+    
+            marker_7098b75e52d66c27ee53b148e9fb9ac6.bindTooltip(
+                `<div>
+                     Hebbal Flyover
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3f9bd21fa785eb12c0f3dd33a5fbe309 = L.marker(
+                [12.9591, 77.6974],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_1470f4cfaa78e65f98127b0d81363548 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79961ad69d5530878c9752802711e80e = $(`<div id="html_79961ad69d5530878c9752802711e80e" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Marathahalli Bridge<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 25<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Poor<br>     <b>Weather Factor:</b> Yes     </div>`)[0];
+                popup_1470f4cfaa78e65f98127b0d81363548.setContent(html_79961ad69d5530878c9752802711e80e);
+            
+        
+
+        marker_3f9bd21fa785eb12c0f3dd33a5fbe309.bindPopup(popup_1470f4cfaa78e65f98127b0d81363548)
+        ;
+
+        
+    
+    
+            marker_3f9bd21fa785eb12c0f3dd33a5fbe309.bindTooltip(
+                `<div>
+                     Marathahalli Bridge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a58a70785a1a04fad8ff2251d259387d = L.marker(
+                [12.8933, 77.597],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_8b6ae1b2ab90a080168db2db623eb669 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94a5758fb5c1ad1c23a8b8e95756d892 = $(`<div id="html_94a5758fb5c1ad1c23a8b8e95756d892" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Bannerghatta Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 28<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_8b6ae1b2ab90a080168db2db623eb669.setContent(html_94a5758fb5c1ad1c23a8b8e95756d892);
+            
+        
+
+        marker_a58a70785a1a04fad8ff2251d259387d.bindPopup(popup_8b6ae1b2ab90a080168db2db623eb669)
+        ;
+
+        
+    
+    
+            marker_a58a70785a1a04fad8ff2251d259387d.bindTooltip(
+                `<div>
+                     Bannerghatta Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_578c0d3ed486c4677d57b792ed68b332 = L.marker(
+                [12.9984, 77.661],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_b300098fb6c879466c7fb9792f368a2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c11644f372ebe5d6e49f173620420c8 = $(`<div id="html_4c11644f372ebe5d6e49f173620420c8" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Tin Factory<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 32<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning/Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_b300098fb6c879466c7fb9792f368a2b.setContent(html_4c11644f372ebe5d6e49f173620420c8);
+            
+        
+
+        marker_578c0d3ed486c4677d57b792ed68b332.bindPopup(popup_b300098fb6c879466c7fb9792f368a2b)
+        ;
+
+        
+    
+    
+            marker_578c0d3ed486c4677d57b792ed68b332.bindTooltip(
+                `<div>
+                     Tin Factory
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b431049f8dc51c825371f14d1b012f65 = L.marker(
+                [13.0152, 77.5843],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_2061e0d921c812da7b92b61f685911fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7d2ac080c5f6ab33e983cd3a0fd1f1e = $(`<div id="html_e7d2ac080c5f6ab33e983cd3a0fd1f1e" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Mekhri Circle<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 22<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_2061e0d921c812da7b92b61f685911fa.setContent(html_e7d2ac080c5f6ab33e983cd3a0fd1f1e);
+            
+        
+
+        marker_b431049f8dc51c825371f14d1b012f65.bindPopup(popup_2061e0d921c812da7b92b61f685911fa)
+        ;
+
+        
+    
+    
+            marker_b431049f8dc51c825371f14d1b012f65.bindTooltip(
+                `<div>
+                     Mekhri Circle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a421ce91db02296a98b139e1b2d60563 = L.marker(
+                [13.0204, 77.5563],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_cb0e3544d9f723d0e98277925fa3f42a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d53a9f201ff7333119df416205a10e5 = $(`<div id="html_0d53a9f201ff7333119df416205a10e5" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Yeshwanthpur Junction<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 24<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Afternoon<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_cb0e3544d9f723d0e98277925fa3f42a.setContent(html_0d53a9f201ff7333119df416205a10e5);
+            
+        
+
+        marker_a421ce91db02296a98b139e1b2d60563.bindPopup(popup_cb0e3544d9f723d0e98277925fa3f42a)
+        ;
+
+        
+    
+    
+            marker_a421ce91db02296a98b139e1b2d60563.bindTooltip(
+                `<div>
+                     Yeshwanthpur Junction
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_927f1a88ed6552aecd03fab986d5592f = L.marker(
+                [12.9227, 77.6127],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_e7a8442e898958a4e960f8eeddb13b95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f405b292ae7b33008fb4100aa650e0f1 = $(`<div id="html_f405b292ae7b33008fb4100aa650e0f1" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Jayadeva Flyover<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 30<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_e7a8442e898958a4e960f8eeddb13b95.setContent(html_f405b292ae7b33008fb4100aa650e0f1);
+            
+        
+
+        marker_927f1a88ed6552aecd03fab986d5592f.bindPopup(popup_e7a8442e898958a4e960f8eeddb13b95)
+        ;
+
+        
+    
+    
+            marker_927f1a88ed6552aecd03fab986d5592f.bindTooltip(
+                `<div>
+                     Jayadeva Flyover
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_841b714ab7f5da2513f81a433958124a = L.marker(
+                [12.844, 77.6608],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_a3dbfc06e801b092da20ed44c7c64873 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6dc71c5490a8bdab1d76d98aeebd301 = $(`<div id="html_a6dc71c5490a8bdab1d76d98aeebd301" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Electronic City Flyover<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 26<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_a3dbfc06e801b092da20ed44c7c64873.setContent(html_a6dc71c5490a8bdab1d76d98aeebd301);
+            
+        
+
+        marker_841b714ab7f5da2513f81a433958124a.bindPopup(popup_a3dbfc06e801b092da20ed44c7c64873)
+        ;
+
+        
+    
+    
+            marker_841b714ab7f5da2513f81a433958124a.bindTooltip(
+                `<div>
+                     Electronic City Flyover
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8c306b9f850b2642070c586556794c32 = L.marker(
+                [12.9698, 77.7499],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_ac2b526094c148dc704b84031ada7c10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bafbcf664e8b3619a4d737a73912f046 = $(`<div id="html_bafbcf664e8b3619a4d737a73912f046" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Whitefield Main Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 23<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning/Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_ac2b526094c148dc704b84031ada7c10.setContent(html_bafbcf664e8b3619a4d737a73912f046);
+            
+        
+
+        marker_8c306b9f850b2642070c586556794c32.bindPopup(popup_ac2b526094c148dc704b84031ada7c10)
+        ;
+
+        
+    
+    
+            marker_8c306b9f850b2642070c586556794c32.bindTooltip(
+                `<div>
+                     Whitefield Main Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab14cfd590221bf726a25f67a3a09b42 = L.marker(
+                [12.9456, 77.5336],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_92ca0c431178ef9b5e3a74d022655038 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85e799a66f5449148410764b118c94a0 = $(`<div id="html_85e799a66f5449148410764b118c94a0" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Mysore Road<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 33<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_92ca0c431178ef9b5e3a74d022655038.setContent(html_85e799a66f5449148410764b118c94a0);
+            
+        
+
+        marker_ab14cfd590221bf726a25f67a3a09b42.bindPopup(popup_92ca0c431178ef9b5e3a74d022655038)
+        ;
+
+        
+    
+    
+            marker_ab14cfd590221bf726a25f67a3a09b42.bindTooltip(
+                `<div>
+                     Mysore Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4fdedd1124cb8a5eaac297fc07df1b73 = L.marker(
+                [13.0098, 77.6406],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_79f8423aa8decdc887c6f5d39e9d5296 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f17ffaae1a156f95c944915982c5645 = $(`<div id="html_3f17ffaae1a156f95c944915982c5645" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Old Madras Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 27<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Afternoon<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_79f8423aa8decdc887c6f5d39e9d5296.setContent(html_3f17ffaae1a156f95c944915982c5645);
+            
+        
+
+        marker_4fdedd1124cb8a5eaac297fc07df1b73.bindPopup(popup_79f8423aa8decdc887c6f5d39e9d5296)
+        ;
+
+        
+    
+    
+            marker_4fdedd1124cb8a5eaac297fc07df1b73.bindTooltip(
+                `<div>
+                     Old Madras Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7cf501f131421d96d130849e5f59bd75 = L.marker(
+                [13.0158, 77.5362],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_54b14976c8f313bc8ac6c480034c5886 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5860360b15ae71747c0a9fb887ff1a6b = $(`<div id="html_5860360b15ae71747c0a9fb887ff1a6b" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Tumkur Road<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 31<br>     <b>Accident Type:</b> Pedestrian Accident<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_54b14976c8f313bc8ac6c480034c5886.setContent(html_5860360b15ae71747c0a9fb887ff1a6b);
+            
+        
+
+        marker_7cf501f131421d96d130849e5f59bd75.bindPopup(popup_54b14976c8f313bc8ac6c480034c5886)
+        ;
+
+        
+    
+    
+            marker_7cf501f131421d96d130849e5f59bd75.bindTooltip(
+                `<div>
+                     Tumkur Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1438ea394831640a35f598abb2225e40 = L.marker(
+                [12.8489, 77.627],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_068e5efebc39aa8cd090f22e680d7701 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_684e88423f72b5a6ea2175619bb42d68 = $(`<div id="html_684e88423f72b5a6ea2175619bb42d68" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Hosur Road<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 36<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_068e5efebc39aa8cd090f22e680d7701.setContent(html_684e88423f72b5a6ea2175619bb42d68);
+            
+        
+
+        marker_1438ea394831640a35f598abb2225e40.bindPopup(popup_068e5efebc39aa8cd090f22e680d7701)
+        ;
+
+        
+    
+    
+            marker_1438ea394831640a35f598abb2225e40.bindTooltip(
+                `<div>
+                     Hosur Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eabb0d3deb357fb9530eacab4503f6b1 = L.marker(
+                [12.9254, 77.677],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_572d700b4ca2d4a7c016a44a939cb902 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54dbdd878b8f4c44efc6919f0c38d6b6 = $(`<div id="html_54dbdd878b8f4c44efc6919f0c38d6b6" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Outer Ring Road (Bellandur)<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 34<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning/Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_572d700b4ca2d4a7c016a44a939cb902.setContent(html_54dbdd878b8f4c44efc6919f0c38d6b6);
+            
+        
+
+        marker_eabb0d3deb357fb9530eacab4503f6b1.bindPopup(popup_572d700b4ca2d4a7c016a44a939cb902)
+        ;
+
+        
+    
+    
+            marker_eabb0d3deb357fb9530eacab4503f6b1.bindTooltip(
+                `<div>
+                     Outer Ring Road (Bellandur)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_479470dba74b58f0212b4bbc0efe382b = L.marker(
+                [12.9609, 77.6487],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_5412a7cdfafa13ebf359e94ff49692e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f73ea0d2f0e30a1c10db8d30047f181 = $(`<div id="html_4f73ea0d2f0e30a1c10db8d30047f181" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Old Airport Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 29<br>     <b>Accident Type:</b> Two-wheeler Accident<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Poor<br>     <b>Weather Factor:</b> Yes     </div>`)[0];
+                popup_5412a7cdfafa13ebf359e94ff49692e4.setContent(html_4f73ea0d2f0e30a1c10db8d30047f181);
+            
+        
+
+        marker_479470dba74b58f0212b4bbc0efe382b.bindPopup(popup_5412a7cdfafa13ebf359e94ff49692e4)
+        ;
+
+        
+    
+    
+            marker_479470dba74b58f0212b4bbc0efe382b.bindTooltip(
+                `<div>
+                     Old Airport Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f8ed5f250c29f8ca6b16a03b832eddbe = L.marker(
+                [12.8981, 77.5673],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_13eebfd1a2c99a3ba159e917532d7280 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ded2e820e0d7abc7bdecf370f7ecff8a = $(`<div id="html_ded2e820e0d7abc7bdecf370f7ecff8a" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Kanakapura Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 24<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_13eebfd1a2c99a3ba159e917532d7280.setContent(html_ded2e820e0d7abc7bdecf370f7ecff8a);
+            
+        
+
+        marker_f8ed5f250c29f8ca6b16a03b832eddbe.bindPopup(popup_13eebfd1a2c99a3ba159e917532d7280)
+        ;
+
+        
+    
+    
+            marker_f8ed5f250c29f8ca6b16a03b832eddbe.bindTooltip(
+                `<div>
+                     Kanakapura Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_081193649071eb707154194890ea1629 = L.marker(
+                [13.0622, 77.5963],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_a165090bbaa9e51d1f38eb4f1f42d111 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d51dcec144501dc0b7e31fff370446ed = $(`<div id="html_d51dcec144501dc0b7e31fff370446ed" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Bellary Road<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 37<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning/Night<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_a165090bbaa9e51d1f38eb4f1f42d111.setContent(html_d51dcec144501dc0b7e31fff370446ed);
+            
+        
+
+        marker_081193649071eb707154194890ea1629.bindPopup(popup_a165090bbaa9e51d1f38eb4f1f42d111)
+        ;
+
+        
+    
+    
+            marker_081193649071eb707154194890ea1629.bindTooltip(
+                `<div>
+                     Bellary Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_94c8274a9609805bdfadce4e4fac30a4 = L.marker(
+                [12.9667, 77.6099],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_2490343cc0f5487523ae06c3c37a6a84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4180db5f1e3449e3f690e7d7a590700b = $(`<div id="html_4180db5f1e3449e3f690e7d7a590700b" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Richmond Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 21<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Night<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_2490343cc0f5487523ae06c3c37a6a84.setContent(html_4180db5f1e3449e3f690e7d7a590700b);
+            
+        
+
+        marker_94c8274a9609805bdfadce4e4fac30a4.bindPopup(popup_2490343cc0f5487523ae06c3c37a6a84)
+        ;
+
+        
+    
+    
+            marker_94c8274a9609805bdfadce4e4fac30a4.bindTooltip(
+                `<div>
+                     Richmond Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_28b4c54bc3eff20baee9037e844549eb = L.marker(
+                [12.9758, 77.6096],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_87f8191290200a7257e2e273acbdb814 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_512c910d0fd5d58a1cd020a906ddb106 = $(`<div id="html_512c910d0fd5d58a1cd020a906ddb106" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> MG Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 19<br>     <b>Accident Type:</b> Pedestrian Accident<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_87f8191290200a7257e2e273acbdb814.setContent(html_512c910d0fd5d58a1cd020a906ddb106);
+            
+        
+
+        marker_28b4c54bc3eff20baee9037e844549eb.bindPopup(popup_87f8191290200a7257e2e273acbdb814)
+        ;
+
+        
+    
+    
+            marker_28b4c54bc3eff20baee9037e844549eb.bindTooltip(
+                `<div>
+                     MG Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aa3f155b4abfceaf3483044a32671346 = L.marker(
+                [12.9784, 77.6408],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_4e31f06b4b0b68c22066461f5a6b06e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3854a17f59bfc286a6551aa23f899dc7 = $(`<div id="html_3854a17f59bfc286a6551aa23f899dc7" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Indiranagar 100ft Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 22<br>     <b>Accident Type:</b> Two-wheeler Accident<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_4e31f06b4b0b68c22066461f5a6b06e5.setContent(html_3854a17f59bfc286a6551aa23f899dc7);
+            
+        
+
+        marker_aa3f155b4abfceaf3483044a32671346.bindPopup(popup_4e31f06b4b0b68c22066461f5a6b06e5)
+        ;
+
+        
+    
+    
+            marker_aa3f155b4abfceaf3483044a32671346.bindTooltip(
+                `<div>
+                     Indiranagar 100ft Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a259bcef2924cfc81f2aad6a1a50c674 = L.marker(
+                [12.9316, 77.6246],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_8c5c760118c663425dd60fbf2bb5b184 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67e3630985d0f300222026f1568874c4 = $(`<div id="html_67e3630985d0f300222026f1568874c4" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Koramangala Inner Ring Road<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 31<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_8c5c760118c663425dd60fbf2bb5b184.setContent(html_67e3630985d0f300222026f1568874c4);
+            
+        
+
+        marker_a259bcef2924cfc81f2aad6a1a50c674.bindPopup(popup_8c5c760118c663425dd60fbf2bb5b184)
+        ;
+
+        
+    
+    
+            marker_a259bcef2924cfc81f2aad6a1a50c674.bindTooltip(
+                `<div>
+                     Koramangala Inner Ring Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_17df12163e455b20fa2eac118098c72c = L.marker(
+                [12.9102, 77.687],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_bc1acde0ccd6c28b6896494b1ab76c35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99deee0b998112e69c59c317e5a5ec67 = $(`<div id="html_99deee0b998112e69c59c317e5a5ec67" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Sarjapur Road<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 33<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning/Evening<br>     <b>Road Condition:</b> Poor<br>     <b>Weather Factor:</b> Yes     </div>`)[0];
+                popup_bc1acde0ccd6c28b6896494b1ab76c35.setContent(html_99deee0b998112e69c59c317e5a5ec67);
+            
+        
+
+        marker_17df12163e455b20fa2eac118098c72c.bindPopup(popup_bc1acde0ccd6c28b6896494b1ab76c35)
+        ;
+
+        
+    
+    
+            marker_17df12163e455b20fa2eac118098c72c.bindTooltip(
+                `<div>
+                     Sarjapur Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a2cca2d69e062c4e1889c8e8e62fbcec = L.marker(
+                [12.9884, 77.5932],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_b62d9f1cbc9c82021af1e1cb282024b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d274ac259fd6a6b3ca752d3fced12b74 = $(`<div id="html_d274ac259fd6a6b3ca752d3fced12b74" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Cunningham Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 18<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Afternoon<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_b62d9f1cbc9c82021af1e1cb282024b7.setContent(html_d274ac259fd6a6b3ca752d3fced12b74);
+            
+        
+
+        marker_a2cca2d69e062c4e1889c8e8e62fbcec.bindPopup(popup_b62d9f1cbc9c82021af1e1cb282024b7)
+        ;
+
+        
+    
+    
+            marker_a2cca2d69e062c4e1889c8e8e62fbcec.bindTooltip(
+                `<div>
+                     Cunningham Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_39d8f5b14a1b018b0f8bb9a9031dffb2 = L.marker(
+                [13.0701, 77.6196],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_a2a9f3224574766b49bb5d6f0d8883b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60ad30a19e92e8bda0a0e558331446ec = $(`<div id="html_60ad30a19e92e8bda0a0e558331446ec" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Airport Road Toll<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 29<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning/Night<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_a2a9f3224574766b49bb5d6f0d8883b5.setContent(html_60ad30a19e92e8bda0a0e558331446ec);
+            
+        
+
+        marker_39d8f5b14a1b018b0f8bb9a9031dffb2.bindPopup(popup_a2a9f3224574766b49bb5d6f0d8883b5)
+        ;
+
+        
+    
+    
+            marker_39d8f5b14a1b018b0f8bb9a9031dffb2.bindTooltip(
+                `<div>
+                     Airport Road Toll
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_01fd065f51a938362fd8505fd161e645 = L.marker(
+                [12.9614, 77.6368],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_dcb76d011c9baea57d171e3451f65160 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04634d0e2b78cff9344240c7f2c8b266 = $(`<div id="html_04634d0e2b78cff9344240c7f2c8b266" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Domlur Flyover<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 24<br>     <b>Accident Type:</b> Two-wheeler Accident<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_dcb76d011c9baea57d171e3451f65160.setContent(html_04634d0e2b78cff9344240c7f2c8b266);
+            
+        
+
+        marker_01fd065f51a938362fd8505fd161e645.bindPopup(popup_dcb76d011c9baea57d171e3451f65160)
+        ;
+
+        
+    
+    
+            marker_01fd065f51a938362fd8505fd161e645.bindTooltip(
+                `<div>
+                     Domlur Flyover
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e58db3e8e2928b4c73d653d1a569c370 = L.marker(
+                [12.9422, 77.5738],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_dab702c5cce4cd4cbad3cb8ec66e83c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fadae2a981d935b7f7dff5c7512ae999 = $(`<div id="html_fadae2a981d935b7f7dff5c7512ae999" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Basavanagudi<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 20<br>     <b>Accident Type:</b> Two-wheeler Accident<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_dab702c5cce4cd4cbad3cb8ec66e83c5.setContent(html_fadae2a981d935b7f7dff5c7512ae999);
+            
+        
+
+        marker_e58db3e8e2928b4c73d653d1a569c370.bindPopup(popup_dab702c5cce4cd4cbad3cb8ec66e83c5)
+        ;
+
+        
+    
+    
+            marker_e58db3e8e2928b4c73d653d1a569c370.bindTooltip(
+                `<div>
+                     Basavanagudi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f9c54cc620ef59ff6d4299f7de3da5ec = L.marker(
+                [12.9766, 77.5713],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_2ea7251122bafbdec548dab20279ff44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fe4740aed8f35d4b2df86f5e9d567e1 = $(`<div id="html_0fe4740aed8f35d4b2df86f5e9d567e1" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Majestic Area<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 35<br>     <b>Accident Type:</b> Pedestrian Accident<br>     <b>Peak Hours:</b> All Day<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_2ea7251122bafbdec548dab20279ff44.setContent(html_0fe4740aed8f35d4b2df86f5e9d567e1);
+            
+        
+
+        marker_f9c54cc620ef59ff6d4299f7de3da5ec.bindPopup(popup_2ea7251122bafbdec548dab20279ff44)
+        ;
+
+        
+    
+    
+            marker_f9c54cc620ef59ff6d4299f7de3da5ec.bindTooltip(
+                `<div>
+                     Majestic Area
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb7f96d7e16a7dfd66427baadd88e509 = L.marker(
+                [12.9825, 77.6258],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_4f1747debcb089b7157021cfe30e6266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39048d0df83f4923959ad3c6a6bc00b3 = $(`<div id="html_39048d0df83f4923959ad3c6a6bc00b3" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Ulsoor Lake Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 23<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Weekend<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_4f1747debcb089b7157021cfe30e6266.setContent(html_39048d0df83f4923959ad3c6a6bc00b3);
+            
+        
+
+        marker_bb7f96d7e16a7dfd66427baadd88e509.bindPopup(popup_4f1747debcb089b7157021cfe30e6266)
+        ;
+
+        
+    
+    
+            marker_bb7f96d7e16a7dfd66427baadd88e509.bindTooltip(
+                `<div>
+                     Ulsoor Lake Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_283091fc054f8ebc0b248b4f4e0a7a00 = L.marker(
+                [13.0064, 77.5643],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_979696c7fc0e0f96ba8056af9b85d260 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dcc1911e5e0aadba72f044153e1883c = $(`<div id="html_6dcc1911e5e0aadba72f044153e1883c" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Malleshwaram 18th Cross<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 21<br>     <b>Accident Type:</b> Two-wheeler Accident<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_979696c7fc0e0f96ba8056af9b85d260.setContent(html_6dcc1911e5e0aadba72f044153e1883c);
+            
+        
+
+        marker_283091fc054f8ebc0b248b4f4e0a7a00.bindPopup(popup_979696c7fc0e0f96ba8056af9b85d260)
+        ;
+
+        
+    
+    
+            marker_283091fc054f8ebc0b248b4f4e0a7a00.bindTooltip(
+                `<div>
+                     Malleshwaram 18th Cross
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_073aa12f2eacbf8401313c652f74cb79 = L.marker(
+                [12.9647, 77.5328],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_fea7e6ec004b5c7012b2c68da6750a60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7f842b4e05f4fe9f3aa5c4d1154d9fd = $(`<div id="html_d7f842b4e05f4fe9f3aa5c4d1154d9fd" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Vijayanagar Main Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 25<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_fea7e6ec004b5c7012b2c68da6750a60.setContent(html_d7f842b4e05f4fe9f3aa5c4d1154d9fd);
+            
+        
+
+        marker_073aa12f2eacbf8401313c652f74cb79.bindPopup(popup_fea7e6ec004b5c7012b2c68da6750a60)
+        ;
+
+        
+    
+    
+            marker_073aa12f2eacbf8401313c652f74cb79.bindTooltip(
+                `<div>
+                     Vijayanagar Main Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b6584832b734c2e06175c3ee1349c790 = L.marker(
+                [12.9073, 77.5831],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_690ddb3863510f610ac8a98892e22c1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4d287ba6496e52c922f21389f671c40 = $(`<div id="html_b4d287ba6496e52c922f21389f671c40" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> JP Nagar Ring Road Junction<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 32<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_690ddb3863510f610ac8a98892e22c1b.setContent(html_b4d287ba6496e52c922f21389f671c40);
+            
+        
+
+        marker_b6584832b734c2e06175c3ee1349c790.bindPopup(popup_690ddb3863510f610ac8a98892e22c1b)
+        ;
+
+        
+    
+    
+            marker_b6584832b734c2e06175c3ee1349c790.bindTooltip(
+                `<div>
+                     JP Nagar Ring Road Junction
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab708ef94c2290ec94bdb6662c739d0a = L.marker(
+                [13.0279, 77.5362],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_cef333c6b7fa159818cf5f8d072c3ae2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e098c9031db960cb1aae222a39aa7941 = $(`<div id="html_e098c9031db960cb1aae222a39aa7941" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Peenya Industrial Area<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 34<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_cef333c6b7fa159818cf5f8d072c3ae2.setContent(html_e098c9031db960cb1aae222a39aa7941);
+            
+        
+
+        marker_ab708ef94c2290ec94bdb6662c739d0a.bindPopup(popup_cef333c6b7fa159818cf5f8d072c3ae2)
+        ;
+
+        
+    
+    
+            marker_ab708ef94c2290ec94bdb6662c739d0a.bindTooltip(
+                `<div>
+                     Peenya Industrial Area
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_146b3a6933b2deb929ef49c7984499ad = L.marker(
+                [13.0507, 77.5492],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_6a3964592629996be02b85e9fffca744 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49b4b2e0ba25800cd3ff7c984fa9429d = $(`<div id="html_49b4b2e0ba25800cd3ff7c984fa9429d" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Jalahalli Cross<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 26<br>     <b>Accident Type:</b> Two-wheeler Accident<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Poor<br>     <b>Weather Factor:</b> Yes     </div>`)[0];
+                popup_6a3964592629996be02b85e9fffca744.setContent(html_49b4b2e0ba25800cd3ff7c984fa9429d);
+            
+        
+
+        marker_146b3a6933b2deb929ef49c7984499ad.bindPopup(popup_6a3964592629996be02b85e9fffca744)
+        ;
+
+        
+    
+    
+            marker_146b3a6933b2deb929ef49c7984499ad.bindTooltip(
+                `<div>
+                     Jalahalli Cross
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cbb00fdf46a325da8534820571b84257 = L.marker(
+                [13.0307, 77.6376],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_773f568ecfea1b542873976dae509e20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45f60ed00a9c1e9b802487bd3ee2348a = $(`<div id="html_45f60ed00a9c1e9b802487bd3ee2348a" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Hennur Main Road<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 30<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_773f568ecfea1b542873976dae509e20.setContent(html_45f60ed00a9c1e9b802487bd3ee2348a);
+            
+        
+
+        marker_cbb00fdf46a325da8534820571b84257.bindPopup(popup_773f568ecfea1b542873976dae509e20)
+        ;
+
+        
+    
+    
+            marker_cbb00fdf46a325da8534820571b84257.bindTooltip(
+                `<div>
+                     Hennur Main Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b1c1854d3fbea766c14136fc1da5a88c = L.marker(
+                [13.0407, 77.621],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_7b1ba4b730fe12d4504d67834e349275 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b639a26f98c049aa8589fafceef94d1 = $(`<div id="html_2b639a26f98c049aa8589fafceef94d1" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Nagawara Junction<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 31<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_7b1ba4b730fe12d4504d67834e349275.setContent(html_2b639a26f98c049aa8589fafceef94d1);
+            
+        
+
+        marker_b1c1854d3fbea766c14136fc1da5a88c.bindPopup(popup_7b1ba4b730fe12d4504d67834e349275)
+        ;
+
+        
+    
+    
+            marker_b1c1854d3fbea766c14136fc1da5a88c.bindTooltip(
+                `<div>
+                     Nagawara Junction
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c37f46ea621a896dc8a4c7aaab51f057 = L.marker(
+                [13.0118, 77.6462],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_b48fe70feb86dca9818e03468f2d5569 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38dfa971aba471e17d7cdc4bdbdf92aa = $(`<div id="html_38dfa971aba471e17d7cdc4bdbdf92aa" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Banaswadi Main Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 24<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Morning<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_b48fe70feb86dca9818e03468f2d5569.setContent(html_38dfa971aba471e17d7cdc4bdbdf92aa);
+            
+        
+
+        marker_c37f46ea621a896dc8a4c7aaab51f057.bindPopup(popup_b48fe70feb86dca9818e03468f2d5569)
+        ;
+
+        
+    
+    
+            marker_c37f46ea621a896dc8a4c7aaab51f057.bindTooltip(
+                `<div>
+                     Banaswadi Main Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_57dd9804691bf06c5a11f031880babea = L.marker(
+                [13.0279, 77.64],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_f375ab72bafcc4fc9551649faf314e34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ed64b1c02e0c5cd0228f035b8cccde5 = $(`<div id="html_2ed64b1c02e0c5cd0228f035b8cccde5" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> Kalyan Nagar Ring Road<br>     <b>Severity:</b> medium<br>     <b>Incidents:</b> 27<br>     <b>Accident Type:</b> Vehicle Collision<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Good<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_f375ab72bafcc4fc9551649faf314e34.setContent(html_2ed64b1c02e0c5cd0228f035b8cccde5);
+            
+        
+
+        marker_57dd9804691bf06c5a11f031880babea.bindPopup(popup_f375ab72bafcc4fc9551649faf314e34)
+        ;
+
+        
+    
+    
+            marker_57dd9804691bf06c5a11f031880babea.bindTooltip(
+                `<div>
+                     Kalyan Nagar Ring Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a25fbf3c4347add31575a526a03620e = L.marker(
+                [12.9166, 77.6101],
+                {
+}
+            ).addTo(map_11f261f1d6ae1de2c7fbc51535dbf58d);
+        
+    
+        var popup_a72227e95c42765cccdab756edb42a77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_943dbcc61330033ceb065345acc9b902 = $(`<div id="html_943dbcc61330033ceb065345acc9b902" style="width: 100.0%; height: 100.0%;">     <b>Location:</b> BTM Layout<br>     <b>Severity:</b> high<br>     <b>Incidents:</b> 33<br>     <b>Accident Type:</b> Two-wheeler Accident<br>     <b>Peak Hours:</b> Evening<br>     <b>Road Condition:</b> Fair<br>     <b>Weather Factor:</b> No     </div>`)[0];
+                popup_a72227e95c42765cccdab756edb42a77.setContent(html_943dbcc61330033ceb065345acc9b902);
+            
+        
+
+        marker_5a25fbf3c4347add31575a526a03620e.bindPopup(popup_a72227e95c42765cccdab756edb42a77)
+        ;
+
+        
+    
+    
+            marker_5a25fbf3c4347add31575a526a03620e.bindTooltip(
+                `<div>
+                     BTM Layout
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

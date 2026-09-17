@@ -1,0 +1,41 @@
+location,latitude,longitude,severity,incidents,description,accident_type,peak_hours,road_condition,weather_factor,index_right,predicted_risk_score,predicted_risk_level,prediction_confidence,distance_to_predicted_road
+Silk Board Junction,12.9177,77.6233,high,42,Heavy traffic congestion with poor lane discipline,Vehicle Collision,Morning/Evening,Good,No,1501,36.07,Medium,92.4,218.23
+KR Puram Bridge,13.0054,77.6714,high,38,Narrow bridge with heavy vehicle movement,Vehicle Collision,Evening,Fair,No,338,48.39,Medium,54.85,110.87
+Hebbal Flyover,13.0358,77.5946,high,35,Complex junction with multiple entry/exit points,Vehicle Collision,Morning,Good,No,811,0.05,Low,99.93,84.12
+Marathahalli Bridge,12.9591,77.6974,medium,25,Poor road conditions and inadequate lighting,Vehicle Collision,Evening,Poor,Yes,341,40.18,Medium,80.19,365.47
+Bannerghatta Road,12.8933,77.597,medium,28,Narrow roads with heavy traffic,Vehicle Collision,Evening,Fair,No,995,55.75,High,66.24,482.15
+Tin Factory,12.9984,77.661,high,32,Chaotic traffic with poor signal management,Vehicle Collision,Morning/Evening,Fair,No,335,41.49,Medium,76.08,183.82
+Mekhri Circle,13.0152,77.5843,medium,22,Roundabout with poor lane markings,Vehicle Collision,Evening,Good,No,1913,38.5,Medium,85.32,261.62
+Yeshwanthpur Junction,13.0204,77.5563,medium,24,Railway crossing nearby with heavy commercial vehicles,Vehicle Collision,Afternoon,Good,No,158,35.62,Medium,93.21,57.89
+Jayadeva Flyover,12.9227,77.6127,high,30,Construction work causing diversions,Vehicle Collision,Morning,Fair,No,1708,0.05,Low,99.92,132.15
+Electronic City Flyover,12.844,77.6608,medium,26,High-speed corridor with inadequate safety barriers,Vehicle Collision,Morning,Good,No,1495,95.48,Critical,91.48,1565.33
+Whitefield Main Road,12.9698,77.7499,medium,23,IT corridor with high traffic during peak hours,Vehicle Collision,Morning/Evening,Good,No,308,53.59,High,60.19,357.71
+Mysore Road,12.9456,77.5336,high,33,Highway entry point with poor traffic management,Vehicle Collision,Evening,Fair,No,1799,36.2,Medium,92.24,35.06
+Old Madras Road,13.0098,77.6406,medium,27,Narrow sections with heavy vehicle movement,Vehicle Collision,Afternoon,Fair,No,1811,0.05,Low,99.91,307.76
+Tumkur Road,13.0158,77.5362,high,31,Highway with inadequate pedestrian crossings,Pedestrian Accident,Evening,Good,No,605,37.22,Medium,88.8,138.72
+Hosur Road,12.8489,77.627,high,36,Industrial area with heavy truck movement,Vehicle Collision,Morning,Fair,No,2058,93.57,Critical,87.54,1286.99
+Outer Ring Road (Bellandur),12.9254,77.677,high,34,IT corridor with multiple junctions,Vehicle Collision,Morning/Evening,Good,No,262,0.05,Low,99.91,303.14
+Old Airport Road,12.9609,77.6487,medium,29,Poor road maintenance and potholes,Two-wheeler Accident,Evening,Poor,Yes,41,36.5,Medium,90.75,181.83
+Kanakapura Road,12.8981,77.5673,medium,24,Narrow road with increasing traffic volume,Vehicle Collision,Evening,Fair,No,1310,37.03,Medium,89.06,107.37
+Bellary Road,13.0622,77.5963,high,37,Airport route with high-speed traffic,Vehicle Collision,Morning/Night,Good,No,1507,38.03,Medium,86.2,372.14
+Richmond Road,12.9667,77.6099,medium,21,Narrow road with poor visibility at night,Vehicle Collision,Night,Fair,No,1233,36.7,Medium,90.48,263.53
+MG Road,12.9758,77.6096,medium,19,High pedestrian movement with busy traffic,Pedestrian Accident,Evening,Good,No,0,35.07,Medium,95.02,119.71
+Indiranagar 100ft Road,12.9784,77.6408,medium,22,Commercial area with high vehicle density,Two-wheeler Accident,Evening,Good,No,1900,0.05,Low,99.92,7.07
+Koramangala Inner Ring Road,12.9316,77.6246,high,31,Multiple intersections with poor signal timing,Vehicle Collision,Evening,Good,No,44,0.05,Low,99.93,113.09
+Sarjapur Road,12.9102,77.687,high,33,Narrow road with heavy construction activity,Vehicle Collision,Morning/Evening,Poor,Yes,1237,0.05,Low,99.92,439.22
+Cunningham Road,12.9884,77.5932,medium,18,Busy commercial area with inadequate parking,Vehicle Collision,Afternoon,Good,No,1940,37.77,Medium,87.04,7.25
+Airport Road Toll,13.0701,77.6196,high,29,High-speed zone with merging traffic,Vehicle Collision,Morning/Night,Good,No,1862,0.05,Low,99.93,334.12
+Domlur Flyover,12.9614,77.6368,medium,24,Sharp curves with inadequate warning signs,Two-wheeler Accident,Evening,Good,No,1985,40.95,Medium,78.89,171.53
+Basavanagudi,12.9422,77.5738,medium,20,Residential area with narrow lanes,Two-wheeler Accident,Morning,Fair,No,124,0.05,Low,99.92,192.1
+Majestic Area,12.9766,77.5713,high,35,High pedestrian and vehicle movement,Pedestrian Accident,All Day,Fair,No,461,44.03,Medium,68.01,436.7
+Ulsoor Lake Road,12.9825,77.6258,medium,23,Recreational area with weekend congestion,Vehicle Collision,Weekend,Good,No,232,0.05,Low,99.92,131.05
+Malleshwaram 18th Cross,13.0064,77.5643,medium,21,Market area with mixed traffic,Two-wheeler Accident,Morning,Fair,No,1975,55.99,High,67.31,179.28
+Vijayanagar Main Road,12.9647,77.5328,medium,25,Residential area with school zones,Vehicle Collision,Morning,Good,No,1042,0.05,Low,99.92,454.4
+JP Nagar Ring Road Junction,12.9073,77.5831,high,32,Complex junction with multiple signals,Vehicle Collision,Evening,Good,No,274,0.05,Low,99.92,304.5
+Peenya Industrial Area,13.0279,77.5362,high,34,Industrial zone with heavy vehicles,Vehicle Collision,Morning,Fair,No,1611,37.67,Medium,87.21,559.64
+Jalahalli Cross,13.0507,77.5492,medium,26,Residential area with poor road conditions,Two-wheeler Accident,Evening,Poor,Yes,2039,39.12,Medium,82.97,224.37
+Hennur Main Road,13.0307,77.6376,high,30,Narrow road with heavy traffic,Vehicle Collision,Evening,Fair,No,939,0.05,Low,99.92,271.02
+Nagawara Junction,13.0407,77.621,high,31,Complex intersection with poor visibility,Vehicle Collision,Evening,Fair,No,1736,64.91,High,93.27,446.33
+Banaswadi Main Road,13.0118,77.6462,medium,24,Residential area with inadequate signals,Vehicle Collision,Morning,Good,No,374,0.05,Low,99.93,107.76
+Kalyan Nagar Ring Road,13.0279,77.64,medium,27,Fast-moving traffic with residential exits,Vehicle Collision,Evening,Good,No,523,0.07,Low,99.89,276.61
+BTM Layout,12.9166,77.6101,high,33,Densely populated with narrow roads,Two-wheeler Accident,Evening,Fair,No,1501,36.07,Medium,92.4,0.14
