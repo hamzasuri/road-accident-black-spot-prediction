@@ -1,0 +1,24 @@
+# Road Accident Black Spot Prediction
+# Python 3.9.x
+# Versions below use versions verified in the current roadaccident environment where available.
+# Additional data-processing/training packages are included because repository scripts use them.
+
+fastapi==0.128.8
+uvicorn==0.39.0
+pandas==2.3.3
+numpy==2.0.2
+scipy==1.13.1
+joblib==1.5.3
+xgboost==2.1.4
+psycopg2-binary==2.9.12
+python-dotenv==1.2.1
+
+# Training and geospatial/data-processing scripts
+scikit-learn==1.6.1
+geopandas==1.0.1
+networkx==3.2.1
+osmnx==2.0.7
+pyogrio==0.11.1
+pyproj==3.6.1
+shapely==2.0.7
+requests==2.32.5
