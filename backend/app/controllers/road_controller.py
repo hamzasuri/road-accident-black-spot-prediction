@@ -1,8 +1,10 @@
-from backend.app.db import conn
-
+import json
+from backend.app.db import get_connection
 
 def get_roads():
+    conn=get_connection()
     cursor = conn.cursor()
+    
 
     cursor.execute("""
         SELECT
@@ -17,7 +19,8 @@ def get_roads():
             oneway,
             risk_score,
             risk_level,
-            prediction_confidence
+            prediction_confidence,
+            ST_AsGeoJSON(geometry) AS geometry
         FROM road_segments
         ORDER BY id;
     """)
@@ -25,6 +28,7 @@ def get_roads():
     rows = cursor.fetchall()
 
     cursor.close()
+    conn.close()
 
     return [
         {
@@ -39,7 +43,8 @@ def get_roads():
             "oneway": row[8],
             "risk_score": float(row[9]) if row[9] is not None else None,
             "risk_level": row[10],
-            "prediction_confidence": float(row[11]) if row[11] is not None else None
+            "prediction_confidence": float(row[11]) if row[11] is not None else None,
+            "geometry": json.loads(row[12]) if row[12] is not None else None
         }
         for row in rows
     ]

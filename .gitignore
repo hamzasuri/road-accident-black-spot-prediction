@@ -1,5 +1,16 @@
+# Large OSM road network file
+data/bengaluru_road_network.graphml
+
+# Environment variables / secrets
 .env
+
+# Python cache
 __pycache__/
 *.pyc
-.venv/
-*.log
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Frontend build
+frontend/dist/
+road-accident-black-spot-prediction/
